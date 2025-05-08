@@ -8,4 +8,4 @@ The pipeline follows the architechture laid out by past works on image based aut
 ![image](https://github.com/user-attachments/assets/25552272-e96b-476c-b9eb-775fd7a86c79)
 
 Result
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/ba5202c2-83d3-47e5-b16c-d21189d8d8f9)
