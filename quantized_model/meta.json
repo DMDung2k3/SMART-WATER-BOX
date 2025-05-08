@@ -1,0 +1,30 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "yolov3_water_meter_11_classes.xmodel",
+    "kernel": [
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_297",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_359",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__ret_27",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_61",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_179",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241",
+        "subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096"
+}

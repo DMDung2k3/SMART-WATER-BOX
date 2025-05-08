@@ -1,0 +1,141 @@
+root
+    subgraph_YOLOv3__input_0 [device=USER]
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_0__Conv2d_conv__ret_3 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__ret_27 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_1__LeakyReLU_leaky__ret_13_fix:(4,208,208,64), fixpos=4 # of elements= 11075584},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__Sequential_layers__ModuleList_0__CNNBlock_1__LeakyReLU_leaky__ret_25_fix:(4,208,208,64), fixpos=5 # of elements= 11075584}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__ret_27_fix:(4,208,208,64), fixpos=4 # of elements= 11075584}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__Sequential_layers__ModuleList_0__CNNBlock_1__Conv2d_conv__ret_21_upload_0
+        subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_1__Conv2d_conv__ret_9_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__ret_27
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_2__ret_27_download_0
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_3__Conv2d_conv__ret_29 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_3__LeakyReLU_leaky__ret_33_fix:(4,104,104,128), fixpos=5 # of elements= 5537792},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__Sequential_layers__ModuleList_0__CNNBlock_1__LeakyReLU_leaky__ret_45_fix:(4,104,104,128), fixpos=5 # of elements= 5537792}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47_fix:(4,104,104,128), fixpos=5 # of elements= 5537792}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__Sequential_layers__ModuleList_0__CNNBlock_1__Conv2d_conv__ret_41_upload_0
+        subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_3__Conv2d_conv__ret_29_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__Sequential_layers__ModuleList_1__CNNBlock_0__Conv2d_conv__ret_49 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_61 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47_fix:(4,104,104,128), fixpos=5 # of elements= 5537792},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__Sequential_layers__ModuleList_1__CNNBlock_1__LeakyReLU_leaky__ret_59_fix:(4,104,104,128), fixpos=5 # of elements= 5537792}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_61_fix:(4,104,104,128), fixpos=5 # of elements= 5537792}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_47_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__Sequential_layers__ModuleList_1__CNNBlock_1__Conv2d_conv__ret_55_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_61
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_4__ret_61_download_0
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_5__Conv2d_conv__ret_63 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_5__LeakyReLU_leaky__ret_67_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_0__CNNBlock_1__LeakyReLU_leaky__ret_79_fix:(4,52,52,256), fixpos=6 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_0__CNNBlock_1__Conv2d_conv__ret_75_upload_0
+        subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_5__Conv2d_conv__ret_63_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_1__CNNBlock_0__Conv2d_conv__ret_83 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_1__CNNBlock_1__LeakyReLU_leaky__ret_93_fix:(4,52,52,256), fixpos=6 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_81_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_1__CNNBlock_1__Conv2d_conv__ret_89_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_2__CNNBlock_0__Conv2d_conv__ret_97 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_2__CNNBlock_1__LeakyReLU_leaky__ret_107_fix:(4,52,52,256), fixpos=6 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_95_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_2__CNNBlock_1__Conv2d_conv__ret_103_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_3__CNNBlock_0__Conv2d_conv__ret_111 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_3__CNNBlock_1__LeakyReLU_leaky__ret_121_fix:(4,52,52,256), fixpos=6 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_109_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_3__CNNBlock_1__Conv2d_conv__ret_117_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_4__CNNBlock_0__Conv2d_conv__ret_125 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_4__CNNBlock_1__LeakyReLU_leaky__ret_135_fix:(4,52,52,256), fixpos=6 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_123_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_4__CNNBlock_1__Conv2d_conv__ret_131_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_5__CNNBlock_0__Conv2d_conv__ret_139 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_5__CNNBlock_1__LeakyReLU_leaky__ret_149_fix:(4,52,52,256), fixpos=6 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_137_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_5__CNNBlock_1__Conv2d_conv__ret_145_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_6__CNNBlock_0__Conv2d_conv__ret_153 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_6__CNNBlock_1__LeakyReLU_leaky__ret_163_fix:(4,52,52,256), fixpos=6 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_151_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_6__CNNBlock_1__Conv2d_conv__ret_159_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_7__CNNBlock_0__Conv2d_conv__ret_167 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_179 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165_fix:(4,52,52,256), fixpos=5 # of elements= 2768896},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_7__CNNBlock_1__LeakyReLU_leaky__ret_177_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_179_fix:(4,52,52,256), fixpos=5 # of elements= 2768896}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_165_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__Sequential_layers__ModuleList_7__CNNBlock_1__Conv2d_conv__ret_173_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_179
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_6__ret_179_download_0
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_7__Conv2d_conv__ret_181 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_7__LeakyReLU_leaky__ret_185_fix:(4,26,26,512), fixpos=5 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_0__CNNBlock_1__LeakyReLU_leaky__ret_197_fix:(4,26,26,512), fixpos=6 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_0__CNNBlock_1__Conv2d_conv__ret_193_upload_0
+        subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_7__Conv2d_conv__ret_181_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_1__CNNBlock_0__Conv2d_conv__ret_201 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199_fix:(4,26,26,512), fixpos=5 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_1__CNNBlock_1__LeakyReLU_leaky__ret_211_fix:(4,26,26,512), fixpos=7 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_199_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_1__CNNBlock_1__Conv2d_conv__ret_207_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_2__CNNBlock_0__Conv2d_conv__ret_215 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213_fix:(4,26,26,512), fixpos=5 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_2__CNNBlock_1__LeakyReLU_leaky__ret_225_fix:(4,26,26,512), fixpos=7 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_213_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_2__CNNBlock_1__Conv2d_conv__ret_221_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_3__CNNBlock_0__Conv2d_conv__ret_229 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_3__CNNBlock_1__LeakyReLU_leaky__ret_239_fix:(4,26,26,512), fixpos=6 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_227_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_3__CNNBlock_1__Conv2d_conv__ret_235_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_4__CNNBlock_0__Conv2d_conv__ret_243 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_4__CNNBlock_1__LeakyReLU_leaky__ret_253_fix:(4,26,26,512), fixpos=7 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_241_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_4__CNNBlock_1__Conv2d_conv__ret_249_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_5__CNNBlock_0__Conv2d_conv__ret_257 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_5__CNNBlock_1__LeakyReLU_leaky__ret_267_fix:(4,26,26,512), fixpos=6 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_255_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_5__CNNBlock_1__Conv2d_conv__ret_263_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_6__CNNBlock_0__Conv2d_conv__ret_271 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269_fix:(4,26,26,512), fixpos=5 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_6__CNNBlock_1__LeakyReLU_leaky__ret_281_fix:(4,26,26,512), fixpos=7 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_269_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_6__CNNBlock_1__Conv2d_conv__ret_277_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_7__CNNBlock_0__Conv2d_conv__ret_285 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_297 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283_fix:(4,26,26,512), fixpos=5 # of elements= 1384448},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_7__CNNBlock_1__LeakyReLU_leaky__ret_295_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_297_fix:(4,26,26,512), fixpos=5 # of elements= 1384448}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_283_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__Sequential_layers__ModuleList_7__CNNBlock_1__Conv2d_conv__ret_291_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_297
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_8__ret_297_download_0
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_9__Conv2d_conv__ret_299 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_9__LeakyReLU_leaky__ret_303_fix:(4,13,13,1024), fixpos=6 # of elements= 692224},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_0__CNNBlock_1__LeakyReLU_leaky__ret_315_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_0__CNNBlock_1__Conv2d_conv__ret_311_upload_0
+        subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_9__Conv2d_conv__ret_299_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_1__CNNBlock_0__Conv2d_conv__ret_319 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_1__CNNBlock_1__LeakyReLU_leaky__ret_329_fix:(4,13,13,1024), fixpos=6 # of elements= 692224},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_317_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_1__CNNBlock_1__Conv2d_conv__ret_325_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_2__CNNBlock_0__Conv2d_conv__ret_333 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_2__CNNBlock_1__LeakyReLU_leaky__ret_343_fix:(4,13,13,1024), fixpos=7 # of elements= 692224},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_331_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_2__CNNBlock_1__Conv2d_conv__ret_339_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345_download_0
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_3__CNNBlock_0__Conv2d_conv__ret_347 [device=CPU]
+    subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_359 [device=DPU,fingerprint=0x101000056010407,DPU=DPUCZDX8G_ISA1_B4096,I=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345_fix:(4,13,13,1024), fixpos=6 # of elements= 692224},xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_3__CNNBlock_1__LeakyReLU_leaky__ret_357_fix:(4,13,13,1024), fixpos=9 # of elements= 692224}],O=[xir_tensor{YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_359_fix:(4,13,13,1024), fixpos=6 # of elements= 692224}]]
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_345_download_0_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__Sequential_layers__ModuleList_3__CNNBlock_1__Conv2d_conv__ret_353_upload_0
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_359
+        subgraph_YOLOv3__YOLOv3_ResidualBlock_layers__ModuleList_10__ret_359_download_0
+    subgraph_YOLOv3__YOLOv3_CNNBlock_layers__ModuleList_11__Conv2d_conv__ret_361 [device=CPU]
